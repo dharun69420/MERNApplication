@@ -1,7 +1,7 @@
-const express = require('express');
-const user = require('./Routes/user');
+const express = require("express");
+const user = require("./Routes/user");
 const app = express();
-app.set('view engine', 'ejs');
+app.set("view engine", "ejs");
 
 app.use(user);
 
